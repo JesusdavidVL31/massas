@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masas Antioquia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Masas Antioquia</h1>
+    </header>
+
+    <!-- Formulario de Registro -->
+    <section id="registro">
+        <h2>Registro de Usuario</h2>
+        <form id="registroForm">
+            <input type="text" id="username" placeholder="Nombre de usuario" required><br>
+            <input type="password" id="password" placeholder="Contraseña" required><br>
+            <button type="submit">Registrar</button>
+        </form>
+    </section>
+
+    <!-- Formulario de Login -->
+    <section id="login">
+        <h2>Iniciar sesión</h2>
+        <form id="loginForm">
+            <input type="text" id="loginUsername" placeholder="Nombre de usuario" required><br>
+            <input type="password" id="loginPassword" placeholder="Contraseña" required><br>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section id="productos">
+        <h2>Productos</h2>
+        <div id="productList" class="product-list"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
