@@ -7,7 +7,7 @@
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone <>
    ```
 2. Crea un entorno virtual:
    ```bash
@@ -41,5 +41,4 @@
 ## Integrantes
 - **Jesús David Vásquez** (Backend Developer)
 
-## Despliegue
-- API desplegada en Render: [Enlace a la API desplegada]
+
